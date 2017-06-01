@@ -1,5 +1,4 @@
-ARG PHP_VERSION=7.1-fpm
-FROM php:${PHP_VERSION}
+FROM php:7.1-fpm
 COPY ./php.ini /usr/local/etc/php/php.ini
 
 ARG XDEBUG_VERSION=2.5.3
